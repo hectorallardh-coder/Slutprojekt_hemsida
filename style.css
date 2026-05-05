@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(Bilder/Avocados_bakgrund.jpg);
+    background-size: cover;
+}
+
+header {
+    height: 6vh;
+    border:1px solid black;
+}
+
+header .grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: "logo options";
+    width: 10%;
+}
+
+#Logo{
+    width: 40px;
+    grid-area: "logo";
+}
+
+#Box_text{
+    font-size: 300%;
+    background-color: white;
+    width: 30%;
+    border:1px solid black;
+    padding: 10px;
+}
+
+header {
+  background-color: white;
+  width: 100%;
+  height: fit-content;
+  position: sticky;
+  top: 0;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+header a {
+  display: flex;
+  padding: 3px;
+  margin-left: 5px;
+  transition: background-color 0.1s;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+header a:hover {
+  height: 83%;
+  background-color: rgb(197, 197, 197);
+}
+
+header nav ul {
+  justify-content: left;
+  padding-left: 10px;
+  gap: min(150px, 3%);
+  height: 100%;
+
+}
+
+header nav ul li {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+#Body_text {
+  background-color: rgb(198, 198, 198);
+  font-size: 150%;
+  padding: 60px;
+  border: 40px;
+  border:1px solid black;
+}
+
+#Footer {
+  background-color: white;
+  width: 33%;
+  padding: 12px;
+}
+
+table td, table{
+  margin: 20px;
+  border:1px solid black;
+}
