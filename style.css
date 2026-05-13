@@ -94,3 +94,19 @@ table td, table{
   margin: 20px;
   border:1px solid black;
 }
+
+#Alex_gmail{
+  color: blue;
+  text-decoration-line: underline;
+}
+
+#Contact_form{
+  background-color: lightgray;
+  width: 25vw;
+  height: 30vh;
+  padding-left: 20px;
+  font-size: 20px;
+  margin-left: 35vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
