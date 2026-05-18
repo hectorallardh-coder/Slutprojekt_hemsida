@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(Bilder/Avocados_bakgrund.jpg);
+    background-image: url(../images/Avocados_bakgrund.jpg);
     background-size: cover;
 }
 
@@ -90,6 +90,10 @@ header nav ul li {
   padding: 12px;
 }
 
+tr:nth-child(4) {
+  background-color: rgb(53, 123, 184);
+}
+
 table td, table{
   margin: 20px;
   border:1px solid black;
@@ -110,3 +114,22 @@ table td, table{
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
+
+#Login_form{
+  background-color: gainsboro;
+  align-items: center;
+  width: 18vw;
+}
+
+#Login_form input{
+  margin-left: 2vw;
+}
+
+#Login_form label{
+  margin-left: 2vw;
+}
+
+#Button_login{
+  margin-left: 38%;
+}
+
